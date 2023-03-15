@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a4523f761f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="nombre">
+                <h1>Patricio Ramirez</h1>
+                <p>Lic. en Musica</p>
+            </div>
+            <div class="fotoPerfil">
+                <img onmouseover="agrandarFoto(this)" onmouseout="normalFoto(this)" src="https://xsgames.co/randomusers/assets/avatars/male/68.jpg" alt="mi foto de perfil">
+            </div>                  
+        </div>
+    </header>
+    <main>
+        <div class="columnas">
+            <div class="columnaLateral">
+                <h2 >Perfil</h2>
+                <p1 class="perfil">Soy licenciado en Composicion Musical,con experiencia en la enseñanza en institutos y particulares. Gran capacidad de oratoria y manejo de grupo</p1>
+                <hr>
+                <div class="contacto">
+                    <h2>Contacto</h2>
+                    <ul class="detallesContacto">
+                        <li><i class="fa-solid fa-envelope"></i></i>Email : PatricioRamirez@gmol.com</li>
+                        
+                        <li><i class="fa-solid fa-phone"></i></i>Tel : 54321-45-82</li>
+                        
+                        <li><i class="fa-solid fa-street-view"></i>Dir : Calle Inexistente al 2030</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="formacion">
+                    <h2><i class="fa-solid fa-building-columns"></i>Formacion</h2>
+                    <h4>Licenciatura en Composicion Musical</h4>
+                    <p>Universidad la caja musical 2006-2012</p>
+                    <h4>Curso de oratoria especializada en grupos</h2>
+                    <p>Instituto del charlatan 2009-2011</p>
+                    <h4>Especializacion en Musica Contemporanea</h4>
+                    <p>Universidad del Grunge 2013-2016</p>
+                </div>                
+            </div>
+            <div class="columnaMedio">
+                <div class="laboral">
+                    <h2><i class="fa-solid fa-briefcase"></i>Experiencia Laboral</h2>
+                <ul>
+                    <li>
+                        <h3>Profesor Instituto de la Musica</h3>
+                        <p>Desde 2013-2018</p>
+                    </li>
+                    <li>
+                        <h3>Profesor en Universidad Publica de la musica</h3>
+                        <p>Desde 2018-2020</p>
+                    </li>
+                    <li>
+                        <h3>Docente en clases particulares</h3>
+                        <p>Desde 2010 hasta la fecha</p>
+                    </li>
+                    <li>
+                        <h3>Miembro Honorable de la "Mesa de la musica"</h3>
+                        <p>Desde 2015-2021</p>
+                    </li>                  
+                </ul>               
+                </div>
+                <hr>
+                <div class="habilidades">
+                    <h2><i class="fa-solid fa-person-circle-check"></i>Habilidades</h2>
+                    <ul>
+                        <li>Gran capacidad de Gestion de alumnos</li>
+                        <li>Innovador en el area de enseñanza</li>
+                        <li>Desarrollo de nuevos proyectos en grupos</li>
+                        <li>Analisis y revision de las clases para siempre mejorar</li>
+                        <li>Experiencia comprobable en la enseñanza</li>
+                    </ul>                      
+                </div>
+            </div>
+            <div class="adicional">
+                <button id="boton" onclick="extra()">Informacion Adicional </button>
+            </div>
+            
+            
+            <div id="informacionExtra">         
+                <p>Quisque consequat placerat eros. Aenean vehicula ligula vitae lectus convallis, a porttitor magna lobortis. Duis ipsum diam, pretium ac quam ac, molestie sollicitudin tellus. Sed sed risus magna. Ut vitae felis ut nisi fringilla mollis. Aenean vehicula erat sit amet arcu sollicitudin, eu maximus ipsum porttitor. Pellentesque ipsum justo, varius sed magna sed, pulvinar molestie tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget vulputate purus, non rhoncus orci. Aenean quis ipsum magna. Sed tincidunt congue ipsum, dictum sagittis justo suscipit quis.</p>
+            </div>
+        </div>      
+    </main>
+    <footer>
+        <h2>Mis proyectos Personales</h2>
+        <nav>
+           
+            <a href="discografia.html">Mi discografia completa</a>
+        </nav>
+        
+    </footer>
+    <script src ="proyecto.js"></script>
+</body>
+</html>
